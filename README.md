@@ -3,7 +3,7 @@
 Advanced Web Technologies - Course Project 2.
 An asynchronous, client-side Single Page Application: type any place, get its live weather in an interactive map popup. No page reloads, no frameworks.
 
-**Live demo:** `https://<your-username>.github.io/<repo-name>/`
+**Live demo:** [https://x7hero108.github.io/weather_map/](https://x7hero108.github.io/weather_map/)
 
 ## Features
 
