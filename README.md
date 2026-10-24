@@ -1,6 +1,6 @@
 # WeatherMap
 
-Advanced Web Technologies - Course Project 2.
+Advanced Web Technologies -Project 2.
 An asynchronous, client-side Single Page Application: type any place, get its live weather in an interactive map popup. No page reloads, no frameworks.
 
 **Live demo:** [https://x7hero108.github.io/weather_map/](https://x7hero108.github.io/weather_map/)
@@ -52,17 +52,3 @@ js/app.js         all behaviour (listeners via addEventListener)
 
 Pure vanilla JS (no React/Vue/Angular/jQuery/d3) - separate HTML/CSS/JS files - no inline handlers or styles - `event.preventDefault()` on submit - `async/await` with `try/catch/finally` - map container exactly `70vh` with navy border - Google Font (Roboto) - page title `2em` with box shadow.
 
-## Suggested commit history (10+)
-
-1. Initial project structure and README skeleton
-2. Add semantic HTML and Leaflet setup
-3. Initialise map on Khartoum
-4. Style header, form and map container
-5. Add Nominatim geocoding
-6. Add OpenWeatherMap fetch
-7. Add marker, flyTo and popup card
-8. Add loading spinner and error alerts
-9. Add Share button
-10. Add favorites with localStorage
-11. Responsive polish and accessibility
-12. Complete README and enable GitHub Pages
