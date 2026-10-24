@@ -1,8 +1,9 @@
 # WeatherMap
 
-Advanced Web Technologies - Project 2.
+Advanced Web Technologies - Course Project 2.
 An asynchronous, client-side Single Page Application: type any place, get its live weather in an interactive map popup. No page reloads, no frameworks.
 
+**Live demo:** `https://<your-username>.github.io/<repo-name>/`
 
 ## Features
 
@@ -29,6 +30,14 @@ An asynchronous, client-side Single Page Application: type any place, get its li
    ```bash
    python -m http.server 8000   # then visit http://localhost:8000
    ```
+
+> The key is visible to anyone who opens the deployed site (unavoidable in a pure front-end app). Use a free-tier key and never reuse a paid or private one.
+
+## Deploy to GitHub Pages
+
+1. Push the project to a GitHub repository.
+2. *Settings -> Pages -> Deploy from a branch -> `main` / root*.
+3. Put the resulting URL in the **Live demo** line above.
 
 ## Project structure
 
