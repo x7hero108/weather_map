@@ -1,7 +1,6 @@
 'use strict';
 
 
-
 const DEFAULT_VIEW = { lat: 15.5007, lng: 32.5599, zoom: 6 }; // Khartoum
 const FAVORITES_KEY = 'weathermap:favorites';
 const OWM_ICON_URL = 'https://openweathermap.org/img/wn/';
