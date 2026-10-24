@@ -1,3 +1,4 @@
+
 :root {
   --navy: #0b2545;
   --navy-soft: #13315c;
@@ -28,7 +29,6 @@ body {
   clip: rect(0 0 0 0); white-space: nowrap;
 }
 
-/* ---------- Header ---------- */
 .page-header { text-align: center; padding: 28px 16px 8px; }
 
 .page-title {
@@ -48,7 +48,6 @@ body {
 
 .page-main { max-width: 1100px; margin: 0 auto; padding: 16px; }
 
-/* ---------- Form ---------- */
 .search-form { display: flex; gap: 10px; margin-bottom: 12px; }
 
 .search-input, .search-btn {
@@ -85,7 +84,7 @@ body {
 .search-btn:focus-visible { outline: none; box-shadow: 0 0 0 4px rgba(242, 165, 65, 0.55); }
 .search-btn:disabled { opacity: 0.6; cursor: not-allowed; }
 
-/* ---------- Favorites ---------- */
+
 .favorites { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
 .favorites:empty { display: none; }
 
@@ -100,7 +99,6 @@ body {
 .fav-remove { padding: 4px 12px 4px 6px; color: #6b7f96; }
 .fav-remove:hover { color: var(--danger); }
 
-/* ---------- Loading & errors ---------- */
 .spinner-wrap { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; font-weight: 500; }
 
 .spinner {
@@ -121,7 +119,7 @@ body {
 .alert-text { margin: 0; }
 .alert-close { font-size: 1.4rem; line-height: 1; color: inherit; background: none; border: 0; cursor: pointer; }
 
-/* ---------- Map ---------- */
+
 .map-container {
   height: 70vh;                /* exactly 70% of the viewport height */
   border: 4px solid var(--navy);
@@ -130,7 +128,7 @@ body {
   overflow: hidden;
 }
 
-/* ---------- Popup (InfoWindow) card ---------- */
+
 .leaflet-popup-content-wrapper { border-radius: var(--radius); }
 .leaflet-popup-content { margin: 14px 16px; font-family: 'Roboto', sans-serif; }
 
@@ -157,7 +155,7 @@ body {
 
 .page-footer { padding: 8px 16px 24px; text-align: center; font-size: 0.85rem; color: #5b6f86; }
 
-/* ---------- Responsive ---------- */
+
 @media (max-width: 600px) {
   .search-form { flex-direction: column; }
   .page-title { font-size: 2em; padding: 6px 20px; }
